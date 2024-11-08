@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "src/*"
+]
+
+[workspace.package]
+version = "1.0.0"
+edition = "2021"
+authors = ["Sven Sauleau <sven@sauleau.com>"]
+license = "MIT"

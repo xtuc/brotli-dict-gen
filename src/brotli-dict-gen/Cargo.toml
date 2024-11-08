@@ -1,0 +1,12 @@
+[package]
+name = "brotli-dict-gen"
+keywords = ["brotli", "dictionary"]
+description = "Brotli Dictionary Generator"
+version = { workspace = true }
+edition = { workspace = true }
+authors = { workspace = true }
+license = { workspace = true }
+
+[dependencies]
+brotli-dict-gen-sys = { path = "../brotli-dict-gen-sys", version = "1.0.0" }
+clap = { version = "4.5.20", features = ["derive"] }
